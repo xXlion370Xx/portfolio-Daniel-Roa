@@ -53,8 +53,6 @@ nav ul li {
   /* background-color: red; */
 }
 
-nav ul li {}
-
 nav ul li:hover {
   border-radius: 15px;
   background: linear-gradient(to right, #2095D8, #06466B);
