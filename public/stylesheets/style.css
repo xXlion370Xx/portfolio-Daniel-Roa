@@ -1,8 +1,96 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+/* global settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/*------- Styles for nav bar ------ */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* z-index: 999; */
+  height: 10vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  /* background-color: red; */
+  align-items: center;
+}
+
+.name {
+  width: 30%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0;
+}
+
+header nav {
+  width: calc(100% - 30%);
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: blue; */
+}
+
+nav ul li {
+  position: relative;
+  /* margin: 5px; */
+  list-style: none;
+  text-align: center;
+  /* background-color: red; */
+}
+
+nav ul li {}
+
+nav ul li:hover {
+  border-radius: 15px;
+  background: linear-gradient(to right, #2095D8, #06466B);
+}
+
+/* end styles navbar */
+
+.header_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background: url('static/../../images/background.webp') no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.header_section_tittle {
+  font-size: 4rem;
+}
+
+.header_section_text {
+  text-align: center;
+}
+
+.header_section_description {
+  font-weight: bold;
+}
+
+.fa-brands {
+  font-size: 42px;
+}
+
+.down_to_projects {
+  align-self: flex-end;
+  font-size: 64px;
 }
