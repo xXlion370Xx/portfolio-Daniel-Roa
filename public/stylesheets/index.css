@@ -1,0 +1,32 @@
+.header_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background: url('static/../../images/background.webp') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.header_section_tittle {
+    font-size: 4rem;
+}
+
+.header_section_text {
+    text-align: center;
+}
+
+.header_section_description {
+    font-weight: bold;
+}
+
+.fa-brands {
+    font-size: 4rem;
+}
+
+.down_to_projects {
+    align-self: flex-end;
+    font-size: 64px;
+}
