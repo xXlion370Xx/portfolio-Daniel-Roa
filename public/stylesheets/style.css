@@ -4,10 +4,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
+  color: #ffffff;
 }
 
 body {
-  background: #303B42;
+  background: #282f33;
   display: flex;
   flex-direction: column;
 }
@@ -21,7 +22,7 @@ a {
 
 /*------- Styles for nav bar ------ */
 header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 999;
@@ -34,8 +35,8 @@ header {
 }
 
 .sticky {
-  background: #303B42;
-  transition: 1s;
+  background: #1d2429;
+  transition: .5s;
 }
 
 .name {
