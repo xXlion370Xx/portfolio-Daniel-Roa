@@ -6,6 +6,10 @@
   font-family: Poppins, sans-serif;
 }
 
+body {
+  background: #303B42;
+}
+
 a {
   text-decoration: none;
   color: #fff;
@@ -18,13 +22,18 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  /* z-index: 999; */
+  z-index: 999;
   height: 10vh;
   width: 100vw;
   display: flex;
   justify-content: space-around;
   /* background-color: red; */
   align-items: center;
+}
+
+.sticky {
+  background: #1f272b;
+  transition: 1s;
 }
 
 .name {
