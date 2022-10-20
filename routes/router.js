@@ -18,7 +18,7 @@ router.get('/about', (req, res, next) => {
 })
 
 router.get('/education', (req, res, next) => {
-    res.send('Working on page education');
+    res.render('education', {title: "Daniel Roa - Education"});
 })
 
 router.get('/contact', (req, res, next) => {
