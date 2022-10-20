@@ -11,6 +11,7 @@
     <!-- style global settings -->
     <link rel='stylesheet' href='./static/stylesheets/style.css' />
     <!-- link stylesheet -->
+    <link rel="stylesheet" href="./static/stylesheets/about.css">
     <title>
         <%= title %>
     </title>
@@ -19,18 +20,24 @@
 <body>
     <%- include('templates/header') %>
         <main>
-            <section>
-                <img class="foto" src="static/images/me.jpg" alt="Daniel-Roa-foto">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero amet ipsa, quam soluta tempore dicta
-                    consectetur possimus magni nulla quidem repellat, iure praesentium neque reprehenderit nemo
-                    excepturi ratione, cupiditate accusantium?</p>
-            </section>
-            <section>
-                <img class="foto" src="static/images/me.jpg" alt="">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere repudiandae totam labore possimus
-                    quisquam, provident voluptatem accusamus facilis dolorum suscipit libero sapiente cupiditate
-                    exercitationem? Alias quaerat saepe hic ipsam architecto.</p>
-            </section>
+            <h1>Sobre mi</h1>
+            <div class="main-container">
+                <section>
+                    <h2>Biografía</h2>
+                    <img class="foto" src="static/images/me.jpg" alt="Daniel-Roa-foto">
+                    <p>Soy una persona bastante alegre y autodidacta que le gusta aprender todos los días sobre todas
+                        las cosas, tambien el hecho de aprender de otros es algo que me gusta mucho y así mismo
+                        compartir mis conocimientos con los demas.</p>
+                </section>
+                <section>
+                    <h2>Senasoft</h2>
+                    <img class="foto" src="static/images/sena-soft.jpg" alt="sena-soft">
+                    <p>Fue una competencia a nivel Colombia en las regiones que el SENA esta presente y se dio en Bogotá
+                        en la que se evaluaron 12 categorias. La categoría de la que fuí participe fue automatización de
+                        pruebas en la
+                        que quedamos de segundo lugar con mi compañera de equipo. </p>
+                </section>
+            </div>
         </main>
 </body>
 
