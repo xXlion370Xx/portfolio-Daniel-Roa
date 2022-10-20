@@ -1,3 +1,59 @@
-body {
-    background: #303B42;
+header {
+    background: #1d2429;
+}
+
+main {
+    /* text-align: center; */
+    width: 80vw;
+    height: 100%;
+    margin: 140px auto;
+    border-radius: 15px;
+    padding: 5% 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    background: #1d2429;
+}
+
+h1 {
+    text-align: center;
+}
+
+.main_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+    align-content: flex-start
+}
+
+section {
+    min-width: 45%;
+    height: 20%;
+    margin: 20px;
+    display: flex;
+    /* background: blue; */
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: 66px;
+}
+
+.level_skills {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+}
+
+.level-bar {
+    width: 100px;
+    height: 10px;
+    border: none;
+    background-color: rgb(25, 23, 160);
 }
