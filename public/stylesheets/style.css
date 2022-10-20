@@ -8,6 +8,8 @@
 
 body {
   background: #303B42;
+  display: flex;
+  flex-direction: column;
 }
 
 a {
@@ -19,12 +21,12 @@ a {
 
 /*------- Styles for nav bar ------ */
 header {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 999;
   height: 10vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   /* background-color: red; */
@@ -32,7 +34,7 @@ header {
 }
 
 .sticky {
-  background: #1f272b;
+  background: #303B42;
   transition: 1s;
 }
 
@@ -65,4 +67,8 @@ nav ul li {
 nav ul li:hover {
   border-radius: 15px;
   background: linear-gradient(to right, #2095D8, #06466B);
+}
+
+main {
+  width: 100%;
 }
