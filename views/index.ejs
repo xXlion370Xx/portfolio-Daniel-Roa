@@ -1,40 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <script defer src="./static/javascripts/main.js"></script>
-  <!-- fonts awesome -->
-  <script src="https://kit.fontawesome.com/5d5f5b58ca.js" crossorigin="anonymous"></script>
-  <!-- style global settings -->
-  <link rel='stylesheet' href='./static/stylesheets/style.css' />
-  <!-- link stylesheet -->
-  <link rel='stylesheet' href='./static/stylesheets/index.css' />
-
-  <title>
-    <%= title %>
-  </title>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style global settings -->
+    <link rel='stylesheet' href='./static/stylesheets/style.css' />
+    <!-- link styles -->
+    <link rel="stylesheet" href="./static/stylesheets/index.css">
+    <title>Inicio</title>
 </head>
 
 <body>
-  <%- include('templates/header') %>
+    <header>
+        <%- include('templates/nav') %>
+    </header>
     <section class="header_section">
 
-      <div class="header_section_text">
-        <h1 class="header_section_tittle">Daniel Roa</h1>
-        <h2 class="header_section_description">Desarrollador backend</h2>
-        <div class="header_section_social">
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=100005910945632"><i
-              class="fa-brands fa-facebook"></i></a>
-          <a target="_blank" href="https://github.com/xXlion370Xx"><i class="fa-brands fa-github"></i></a>
+        <div class="header_section_text">
+            <h1 class="header_section_tittle">Daniel Roa</h1>
+            <h2 class="header_section_description">Desarrollador backend</h2>
+            <div class="header_section_social">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100005910945632"><i
+                        class="fa-brands fa-facebook"></i></a>
+                <a target="_blank" href="https://github.com/xXlion370Xx"><i class="fa-brands fa-github"></i></a>
+            </div>
         </div>
-      </div>
-      <a href="#projects" class="down_to_projects"><i class="fa-solid fa-down-long"></i></a>
+        <a href="#projects" class="down_to_projects"><i class="fa-solid fa-down-long"></i></a>
     </section>
-
-    <main>
-      <h2>Proyectos</h2>
-    </main>
 </body>
 
 </html>

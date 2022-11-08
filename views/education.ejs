@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,29 +12,35 @@
     <link rel='stylesheet' href='./static/stylesheets/style.css' />
     <!-- link stylesheet -->
     <link rel="stylesheet" href="./static/stylesheets/education.css">
-    <title><%= title %></title>
+    <title>
+        <%= title %>
+    </title>
 </head>
+
 <body>
-    <%- include('templates/header') %>
-    <main>
-        <h1>Educación</h1>
-        <div class="main-container">
-            <section>    
-                <h2><i class="fa-solid fa-building-columns"></i></i>Tecnologo en Analisis y Desarrollo de Sistemas de Información (ADSI)</h2>
-              <h3>2022 - actualmente</h3>
-              <h3>SENA</h3>
-            </section>
-            <section>
-                <h2><i class="fa-solid fa-building-columns"></i>Tecnico en Desarrollo Software</h2>
-                <h3>2020 - 2022</h3>
-                <h3>SENA</h3>
-            </section>
-            <section>
-                <h2><i class="fa-solid fa-school"></i>Bachiller Academico con Enfasís en Tecnología e Informática</h2>
-                <h3>2015 - 2021</h3>
-                <h3>Colegio Pedagógico Dulce María</h3>
-            </section>
-    </div>
-    </main>
+    <%- include('templates/nav') %>
+        <main>
+            <h1>Educación</h1>
+            <div class="main-container">
+                <section>
+                    <h2><i class="fa-solid fa-building-columns"></i></i>Tecnologo en Analisis y Desarrollo de Sistemas
+                        de Información (ADSI)</h2>
+                    <h3>2022 - actualmente</h3>
+                    <h3>SENA</h3>
+                </section>
+                <section>
+                    <h2><i class="fa-solid fa-building-columns"></i>Tecnico en Desarrollo Software</h2>
+                    <h3>2020 - 2022</h3>
+                    <h3>SENA</h3>
+                </section>
+                <section>
+                    <h2><i class="fa-solid fa-school"></i>Bachiller Academico con Enfasís en Tecnología e Informática
+                    </h2>
+                    <h3>2015 - 2021</h3>
+                    <h3>Colegio Pedagógico Dulce María</h3>
+                </section>
+            </div>
+        </main>
 </body>
+
 </html>

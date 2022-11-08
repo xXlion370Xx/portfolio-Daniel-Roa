@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,27 +12,31 @@
     <link rel='stylesheet' href='./static/stylesheets/style.css' />
     <!-- link stylesheet -->
     <link rel="stylesheet" href="./static/stylesheets/contact.css">
-    <title><%= title %></title>
+    <title>
+        <%= title %>
+    </title>
 </head>
-<body>
-    <%- include('templates/header') %>
 
-    <main>
-        <h1>Contactame</h1>
-        <form action="">
-            <label >
-                Correo: 
-                <input type="text">
-            </label>
-            <label >
-                Razón: 
-                <input type="text">
-            </label>
-            <label >
-                Mensaje: 
-                <input type="text">
-            </label>
-        </form>
-    </main>
+<body>
+    <%- include('templates/nav') %>
+
+        <main>
+            <h1>Contactame</h1>
+            <form action="">
+                <label>
+                    Correo:
+                    <input type="text">
+                </label>
+                <label>
+                    Razón:
+                    <input type="text">
+                </label>
+                <label>
+                    Mensaje:
+                    <input type="text">
+                </label>
+            </form>
+        </main>
 </body>
+
 </html>

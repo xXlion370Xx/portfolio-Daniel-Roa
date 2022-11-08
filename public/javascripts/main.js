@@ -1,3 +1,3 @@
 window.onscroll = () => {
-    document.querySelector("header").classList.toggle("sticky", window.scrollY > 0)
+    document.querySelector("nav").classList.toggle("sticky", window.scrollY > 0)
 };
